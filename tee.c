@@ -1,3 +1,5 @@
+//This file implements the functionality of tee command. Multiple file names can be passed as argument and data from stdinput will be copied to standart output as well as files provided as argument.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
