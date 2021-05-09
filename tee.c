@@ -47,4 +47,8 @@ int main(int argc, char * argv[])
 			memset(buffer,0, MAX_READ);
 		}
 	}
+	for (i=1;i<argc;i++)
+	{
+		close(fd[i]);
+	}
 }
